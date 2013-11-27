@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rep:browseReport xmlns:rep="http://ngeo.eo.esa.int/schema/browseReport" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ngeo.eo.esa.int/schema/browseReport http://ngeo.eo.esa.int/schema/browseReport/browseReport.xsd" version="2.0">
+  <rep:responsibleOrgName>SISTEMA</rep:responsibleOrgName>
+  <rep:dateTime>2013-11-27T11:11:41Z</rep:dateTime>
+  <rep:browseType>BRWTYPE</rep:browseType>
+  <rep:browse>
+    <rep:browseIdentifier>Pressure</rep:browseIdentifier>
+    <rep:fileName>GCRIO-REDRO_npp_d20130401_t1427059_e1435037_b07395_c20130423144230834614_noaa_ops.h5</rep:fileName>
+    <rep:imageType>TIFF</rep:imageType>
+    <rep:referenceSystemIdentifier>EPSG:4326</rep:referenceSystemIdentifier>
+    <rep:rectifiedBrowse>
+      <rep:coordList>76.7738265991 -11.7516393661 44.8099708557 -70.2839202881</rep:coordList>
+      <rep:verticalReferenceGrid>
+        <rep:levelsNumber>31</rep:levelsNumber>
+        <rep:heightLevelsList>0.0 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 9.0 10.0 11.0 12.0 13.0 14.0 15.0 16.0 17.0 18.0 19.0 20.0 21.0 22.0 23.0 24.0 25.0 26.0 27.0 28.0 29.0 30.0</rep:heightLevelsList>
+      </rep:verticalReferenceGrid>
+    </rep:rectifiedBrowse>
+    <rep:startTime>2013-04-01T14:27:05Z</rep:startTime>
+    <rep:endTime>2013-04-01T14:35:03Z</rep:endTime>
+  </rep:browse>
+</rep:browseReport>

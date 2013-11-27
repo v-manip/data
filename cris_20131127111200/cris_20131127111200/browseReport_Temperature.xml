@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rep:browseReport xmlns:rep="http://ngeo.eo.esa.int/schema/browseReport" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ngeo.eo.esa.int/schema/browseReport http://ngeo.eo.esa.int/schema/browseReport/browseReport.xsd" version="2.0">
+  <rep:responsibleOrgName>SISTEMA</rep:responsibleOrgName>
+  <rep:dateTime>2013-11-27T11:11:41Z</rep:dateTime>
+  <rep:browseType>BRWTYPE</rep:browseType>
+  <rep:browse>
+    <rep:browseIdentifier>Temperature</rep:browseIdentifier>
+    <rep:fileName>GCRIO-REDRO_npp_d20130401_t1427059_e1435037_b07395_c20130423144230834614_noaa_ops.h5</rep:fileName>
+    <rep:imageType>TIFF</rep:imageType>
+    <rep:referenceSystemIdentifier>EPSG:4326</rep:referenceSystemIdentifier>
+    <rep:rectifiedBrowse>
+      <rep:coordList>76.7738265991 -11.7516393661 44.8099708557 -70.2839202881</rep:coordList>
+      <rep:verticalReferenceGrid>
+        <rep:levelsNumber>42</rep:levelsNumber>
+        <rep:heightLevelsList>0 110.908334132 280.558585673 1722.74452311 1903.01369859 2078.93964488 2255.59636047 2344.20795267 2522.01702532 2747.48035164 3281.22540463 3783.2415215 4423.51358678 5001.39824956 5704.26297142 6340.70853523 7018.55232271 7759.45829775 8568.1300673 9456.7499967 10454.2261707 11002.2008342 11606.0256648 12264.8433496 12998.3392106 13837.0407552 14810.4625681 15963.6850895 17378.7238632 18041.4748128 19625.0321694 21729.3617474 24919.8578326 25605.1344626 26290.4110926 27134.2068161 28193.7841595 29688.7656192 32450.9936962 32686.781876 33230.4820451 33918.8800155</rep:heightLevelsList>
+      </rep:verticalReferenceGrid>
+    </rep:rectifiedBrowse>
+    <rep:startTime>2013-04-01T14:27:05Z</rep:startTime>
+    <rep:endTime>2013-04-01T14:35:03Z</rep:endTime>
+  </rep:browse>
+</rep:browseReport>
