@@ -1,14 +1,62 @@
-# Workflow for converting a TIFF to a NIfTI container file (for slice:drop viewer)
+# Workflow for converting a multi-frame TIFF to a NIfTI container file (for slice:drop viewer)
 
-## Workflow:
+Inspiration was taken from 
+* http://wiki.ubuntuusers.de/DICOM
 
-### Prerequisites
+## Conversion
+
+### Gimp/medcon combination
+
+#### Prerequisites
+
+sudo apt-get install gimp gimp-dbg medcon
+
+#### Generating JPG images from TIFF files
+
+Use 'tiff2img.py' to convert the multi-frame input TIFF files into a series of single JPG files
+
+<pre><code>./tiff2img.py H2O.tif</code></pre>
+
+#### Converting each JPG to a DICOM file
+
+Use gimp to export each JPG to a DICOM (.dcm) file.
+
+(*TODO* Use a batch process for that!)
+
+#### Converting DICOM images to DICOM 3D stack
+
+The next step is to convert the different DICOM files into a single 3D stack DICOM file:
+
+<pre><code>medcon -f *.dcm -c dicom -stack3d -n -qc</code></pre>
+
+The resulting .dcm file did not yet work with slice:drop (slicedrop.com). 
+
+#### Convert DICOM 3D stack to NIfTI file
+
+The final step is to convert the 3D stack .dcm file to a NIfTI (.nii) file:
+
+<pre><code>medcon -c "nifti" -f H2O.dcm</code></pre>
+
+This will result in a <pre>H2O.nii</pre> file, which can be loaded into slice:drop.
+
+To (optionally) reduce the file size run:
+
+<pre><code>gzip H2O.nii</code><pre>
+
+which results in <pre>H2O.nii.gz</pre>, which is also loadable in slice:drop.
+
+
+# Previous Approaches
+
+The approaches described here did produce weird looking NIfTI files, but for the record:
+
+## Prerequisites
 
 sudo apt-get install libmagickwand-dev mitools
 sudo gem install dicom
 sudo gem install rmagick 
 
-### Conversion
+## Workflow
 
 1. imagej: 
     * raw import of data (parameters can be inspected with tiffinfo.py). Check 'little endian' and 'virtual stack'
