@@ -21,7 +21,7 @@ Use 'tiff2img.py' to convert the multi-frame input TIFF files into a series of s
 
 Use gimp to export each JPG to a DICOM (.dcm) file.
 
-(*TODO* Use a batch process for that!)
+(*TODO:* use a batch process for that!)
 
 #### Converting DICOM images to DICOM 3D stack
 
@@ -37,13 +37,13 @@ The final step is to convert the 3D stack .dcm file to a NIfTI (.nii) file:
 
 <pre><code>medcon -c "nifti" -f H2O.dcm</code></pre>
 
-This will result in a <pre>H2O.nii</pre> file, which can be loaded into slice:drop.
+This will result in a H2O.niifile, which can be loaded into slice:drop.
 
 To (optionally) reduce the file size run:
 
-<pre><code>gzip H2O.nii</code><pre>
+<pre><code>gzip H2O.nii</code></pre>
 
-which results in <pre>H2O.nii.gz</pre>, which is also loadable in slice:drop.
+which results in H2O.nii.gz, which is also loadable in slice:drop.
 
 
 # Previous Approaches
