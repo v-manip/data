@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rep:browseReport xmlns:rep="http://ngeo.eo.esa.int/schema/browseReport" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ngeo.eo.esa.int/schema/browseReport http://ngeo.eo.esa.int/schema/browseReport/browseReport.xsd" version="2.0">
+    <rep:responsibleOrgName>EOX</rep:responsibleOrgName>
+    <rep:dateTime>2012-10-02T09:30:00Z</rep:dateTime>
+    <rep:browseType>BRWTYPE</rep:browseType>
+    <rep:browse>
+        <rep:browseIdentifier>id</rep:browseIdentifier>
+        <rep:fileName>example.tif</rep:fileName>
+        <rep:imageType>GeoTIFF</rep:imageType> <!-- Note, this has to be a multilayer GeoTIFF where the number of layers is equal to the levelsNumber given below. -->
+        <rep:referenceSystemIdentifier>EPSG:4326</rep:referenceSystemIdentifier> 
+        <rep:verticalCurtainFootprint nodeNumber="5">
+            <rep:colRowList>0 0 7 0 14 0 21 0 29 0</rep:colRowList>
+            <rep:coordList>48.46 16.1001 48.48 16.1 48.5 16.1 48.5033 16.168 48.4835 16.168035</rep:coordList>
+            <rep:detectionAngle>0</rep:detectionAngle>
+            <rep:verticalCurtainReferenceGrid>
+                <rep:levelsNumber>5</rep:levelsNumber>
+                <rep:heightLevelsList>2000.5 3500 5000 7777 10000.5</rep:heightLevelsList>
+            </rep:verticalCurtainReferenceGrid>
+        </rep:verticalCurtainFootprint>
+        <rep:startTime>2012-10-02T09:20:00Z</rep:startTime>
+        <rep:endTime>2012-10-02T09:20:00Z</rep:endTime>
+    </rep:browse>
+</rep:browseReport>
