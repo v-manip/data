@@ -1,0 +1,42 @@
+[
+{
+    "pk": 100, 
+    "model": "coverages.eoobject", 
+    "fields": {
+        "real_content_type": 30, 
+        "footprint": null, 
+        "identifier": "Cloudsat", 
+        "end_time": null, 
+        "begin_time": null
+    }
+},
+{
+    "pk": 100, 
+    "model": "coverages.collection", 
+    "fields": {}
+},
+{
+    "pk": 100, 
+    "model": "coverages.datasetseries", 
+    "fields": {}
+},
+{
+    "pk": "Cloudsat", 
+    "model": "config.browselayer", 
+    "fields": {
+        "browse_type": "Cloudsat", 
+        "title": "Cloudsat", 
+        "description": "", 
+        "browse_access_policy": "OPEN", 
+        "contains_vertical_curtains": true, 
+        "r_band": null, 
+        "g_band": null, 
+        "b_band": null, 
+        "radiometric_interval_min": null, 
+        "radiometric_interval_max": null, 
+        "grid": "urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad", 
+        "lowest_map_level": 0, 
+        "highest_map_level": 4
+    }
+}
+]
