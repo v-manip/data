@@ -240,7 +240,7 @@
 										<xs:list itemType="xs:double"/>
 									</xs:simpleType>
 								</xs:element>
-								<xs:element name="LookAngle" type="xs:double">
+								<xs:element name="lookAngle" type="xs:double">
 									<xs:annotation>
 										<xs:documentation>Double value representing the angle (degrees) between the nadir and the sensor viewing angle. Angle is set to zero for nadir views.</xs:documentation>
 									</xs:annotation>
@@ -332,7 +332,7 @@
 			<xs:sequence>
 				<xs:element name="levelsNumber" type="xs:int">
 					<xs:annotation>
-						<xs:documentation>Integer value representing the number of regularly spaced vertical levels. Equal to number of layers in multilayer GeoTIFF.</xs:documentation>
+						<xs:documentation>Integer value representing the number of regularly spaced vertical levels. Equal to number of layers in multilayer TIFF.</xs:documentation>
 					</xs:annotation>
 				</xs:element>
 				<xs:element name="baseLevelHeight" type="xs:double">
@@ -357,7 +357,7 @@
 		<xs:sequence>
 			<xs:element name="levelsNumber" type="xs:int">
 				<xs:annotation>
-					<xs:documentation>List of integer values, separated by space, representing the number of irregularly spaced vertical levels.When used for a multilayer GeoTIFF this is equal to the number of layers</xs:documentation>
+					<xs:documentation>List of integer values, separated by space, representing the number of irregularly spaced vertical levels. When used for a verticalReferenceGrid element, i.e. a multilayer TIFF, this is equal to the number of layers. When used for a verticalCurtainReferenceGrid element, i.e. a single layer TIFF, this is equal to the number of rows.</xs:documentation>
 				</xs:annotation>
 			</xs:element>
 			<xs:element name="heightLevelsList">
