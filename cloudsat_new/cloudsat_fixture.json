@@ -32,8 +32,8 @@
         "r_band": null, 
         "g_band": null, 
         "b_band": null, 
-        "radiometric_interval_min": null, 
-        "radiometric_interval_max": null, 
+        "radiometric_interval_min": -40, 
+        "radiometric_interval_max": 50, 
         "grid": "urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad", 
         "lowest_map_level": 0, 
         "highest_map_level": 4
