@@ -1,34 +1,34 @@
 [
 {
-    "pk": 100, 
+    "pk": 500, 
     "model": "coverages.eoobject", 
     "fields": {
         "real_content_type": 30, 
         "footprint": null, 
-        "identifier": "Cloudsat", 
+        "identifier": "Cris", 
         "end_time": null, 
         "begin_time": null
     }
 },
 {
-    "pk": 100, 
+    "pk": 500, 
     "model": "coverages.collection", 
     "fields": {}
 },
 {
-    "pk": 100, 
+    "pk": 500, 
     "model": "coverages.datasetseries", 
     "fields": {}
 },
 {
-    "pk": "Cloudsat", 
+    "pk": "Cris", 
     "model": "config.browselayer", 
     "fields": {
-        "browse_type": "Cloudsat", 
-        "title": "Cloudsat", 
+        "browse_type": "Cris", 
+        "title": "Cris", 
         "description": "", 
         "browse_access_policy": "OPEN", 
-        "contains_vertical_curtains": true, 
+        "contains_volumes": true, 
         "r_band": null, 
         "g_band": null, 
         "b_band": null, 

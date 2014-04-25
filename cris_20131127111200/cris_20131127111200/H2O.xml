@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rep:browseReport xmlns:rep="http://ngeo.eo.esa.int/schema/browseReport" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ngeo.eo.esa.int/schema/browseReport http://ngeo.eo.esa.int/schema/browseReport/browseReport.xsd" version="2.0">
+  <rep:responsibleOrgName>SISTEMA</rep:responsibleOrgName>
+  <rep:dateTime>2013-11-27T11:11:41Z</rep:dateTime>
+  <rep:browseType>Cris</rep:browseType>
+  <rep:browse>
+    <rep:browseIdentifier>H2O</rep:browseIdentifier>
+    <rep:fileName>H2O.tif</rep:fileName>
+    <rep:imageType>TIFF</rep:imageType>
+    <rep:referenceSystemIdentifier>EPSG:4326</rep:referenceSystemIdentifier>
+    <rep:rectifiedBrowse>
+      <rep:coordList>76.7738265991 -11.7516393661 44.8099708557 -70.2839202881</rep:coordList>
+      <rep:verticalReferenceGrid>
+        <rep:levelsNumber>22</rep:levelsNumber>
+        <rep:heightLevelsList>1439.86470478 1815.31597991 1990.88710894 2167.17484571 2344.20795267 2522.01702532 2747.48035164 3281.22540463 3783.2415215 4423.51358678 5001.39824956 5704.26297142 6340.70853523 7018.55232271 7759.45829775 8568.1300673 9456.7499967 10454.2261707 11606.0256648 12998.3392106 14810.4625681 17378.7238632</rep:heightLevelsList>
+      </rep:verticalReferenceGrid>
+    </rep:rectifiedBrowse>
+    <rep:startTime>2013-04-01T14:27:05Z</rep:startTime>
+    <rep:endTime>2013-04-01T14:35:03Z</rep:endTime>
+  </rep:browse>
+</rep:browseReport>
