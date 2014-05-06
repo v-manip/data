@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cfg:browseLayers xmlns:cfg="http://ngeo.eo.esa.int/schema/configurationElements">
   <cfg:browseLayer browseLayerId="Cloudsat">
-    <cfg:browseType>ALARO</cfg:browseType>
-    <cfg:title>ALARO Temperature Surface</cfg:title>
+    <cfg:browseType>Cloudsat</cfg:browseType>
+    <cfg:title>Cloudsat</cfg:title>
     <cfg:description></cfg:description>
     <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
     <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
