@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfg:browseLayers xmlns:cfg="http://ngeo.eo.esa.int/schema/configurationElements">
+  <cfg:browseLayer browseLayerId="ALARO">
+    <cfg:browseType>ALARO</cfg:browseType>
+    <cfg:title>ALARO Temperature Surface</cfg:title>
+    <cfg:description></cfg:description>
+    <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
+    <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
+    <cfg:hostingBrowseServerName/>
+    <cfg:relatedDatasetIds/>
+    <cfg:containsVerticalCurtains>false</cfg:containsVerticalCurtains>
+    <cfg:contains_volumes>true</cfg:contains_volumes>
+    <cfg:highestMapLevel>4</cfg:highestMapLevel>
+    <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
+    <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
+    <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
+  </cfg:browseLayer>
+</cfg:browseLayers>

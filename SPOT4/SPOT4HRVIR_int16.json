@@ -1,0 +1,63 @@
+[{
+    "bands": [
+        {
+            "definition": "Radiance",
+            "description": "HRVIR-1/2 B01-Green-int16",
+            "gdal_interpretation": "Undefined",
+            "identifier": "SPOT4_HRVIR_B01_int16",
+            "name": "SPOT4_HRVIR_B01_int16",
+            "nil_values": [
+                {
+                    "reason": "unknown",
+                    "value": -10000 
+                }
+            ],
+            "uom": "W.m-2.sr-1.nm-1"
+        },
+        {
+            "definition": "Radiance",
+            "description": "HRVIR-1/2 B02-Red-int16",
+            "gdal_interpretation": "Undefined",
+            "identifier": "SPOT4_HRVIR_B02_int16",
+            "name": "SPOT4_HRVIR_B02_int16",
+            "nil_values": [
+                {
+                    "reason": "unknown",
+                    "value": -10000 
+                }
+            ],
+            "uom": "W.m-2.sr-1.nm-1"
+        },
+        {
+            "definition": "Radiance",
+            "description": "HRVIR-1/2 B03-NIR- int16",
+            "gdal_interpretation": "Undefined",
+            "identifier": "SPOT4_HRVIR_B03_int16",
+            "name": "SPOT4_HRVIR_B03_int16",
+            "nil_values": [
+                {
+                    "reason": "unknown",
+                    "value": -10000 
+                }
+            ],
+            "uom": "W.m-2.sr-1.nm-1"
+        },
+        {
+            "definition": "Radiance",
+            "description": "HRVIR-1/2 B04-MIR-int16",
+            "gdal_interpretation": "Undefined",
+            "identifier": "SPOT4_HRVIR_B04_int16",
+            "name": "SPOT4_HRVIR_B04_int16",
+            "nil_values": [
+                {
+                    "reason": "unknown",
+                    "value": -10000 
+                }
+            ],
+            "uom": "W.m-2.sr-1.nm-1"
+        }
+    ],
+    "data_type": "Int16",
+    "name": "SPOT4HRVIR_int16"
+}]
+
