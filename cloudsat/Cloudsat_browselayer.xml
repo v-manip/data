@@ -8,8 +8,8 @@
     <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
     <cfg:hostingBrowseServerName/>
     <cfg:relatedDatasetIds/>
-    <cfg:containsVerticalCurtains>false</cfg:containsVerticalCurtains>
-    <cfg:contains_volumes>true</cfg:contains_volumes>
+    <cfg:containsVerticalCurtains>true</cfg:containsVerticalCurtains>
+    <cfg:contains_volumes>false</cfg:contains_volumes>
     <cfg:highestMapLevel>8</cfg:highestMapLevel>
     <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
     <cfg:radiometric_interval_min>-40</cfg:radiometric_interval_min> 
