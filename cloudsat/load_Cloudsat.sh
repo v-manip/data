@@ -10,6 +10,7 @@ find /var/vmanip/data/cloudsat/ -name 'cloudsat_2014012*' -exec unzip {} -d ${tm
 #find /var/vmanip/data/cloudsat/ -name 'cloudsat_20140124150000_37519.zip' -exec unzip {} -d ${tmpdir} \;
 
 find ${tmpdir} -name '*tif' -exec mv {} /var/www/store/ \;
+#find ${tmpdir} -name '*tif' -exec mv {} /var/www/ngeo/store/ \;
 
 find ${tmpdir} -name '*xml' -exec python manage.py ngeo_ingest {} -v3 \;
 
