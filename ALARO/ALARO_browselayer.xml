@@ -12,6 +12,10 @@
     <cfg:contains_volumes>true</cfg:contains_volumes>
     <cfg:highestMapLevel>4</cfg:highestMapLevel>
     <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
+    <cfg:radiometricInterval>
+        <cfg:min>-40</cfg:min>
+        <cfg:max>50</cfg:max>
+    </cfg:radiometricInterval>
     <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
     <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
   </cfg:browseLayer>

@@ -1,6 +1,7 @@
 #!/bin/sh
 
-cd /var/www/ngeo/ngeo_browse_server_instance
+#cd /var/www/ngeo/ngeo_browse_server_instance
+cd /var/ngeob_autotest/
 
 python manage.py ngeo_browse_layer --add /var/vmanip/data/cloudsat/Cloudsat_browselayer.xml
 
