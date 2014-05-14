@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cfg:browseLayers xmlns:cfg="http://ngeo.eo.esa.int/schema/configurationElements">
-  <cfg:browseLayer browseLayerId="ALARO">
+  <cfg:browseLayer browseLayerId="AROME_Temperature_isobaric">
     <cfg:browseType>AROME_Temperature_isobaric</cfg:browseType>
     <cfg:title>AROME Temperature Isobaric</cfg:title>
     <cfg:description></cfg:description>

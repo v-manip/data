@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cfg:browseLayers xmlns:cfg="http://ngeo.eo.esa.int/schema/configurationElements">
-  <cfg:browseLayer browseLayerId="ALARO">
+  <cfg:browseLayer browseLayerId="AROME_Specific_Humidity">
     <cfg:browseType>AROME_Specific_Humidity</cfg:browseType>
     <cfg:title>AROME Specific Humidity</cfg:title>
     <cfg:description></cfg:description>
