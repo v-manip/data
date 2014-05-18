@@ -10,7 +10,7 @@
     <cfg:relatedDatasetIds/>
     <cfg:containsVerticalCurtains>true</cfg:containsVerticalCurtains>
     <cfg:contains_volumes>false</cfg:contains_volumes>
-    <cfg:highestMapLevel>10</cfg:highestMapLevel>
+    <cfg:highestMapLevel>7</cfg:highestMapLevel>
     <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
     <cfg:radiometricInterval>
         <cfg:min>0</cfg:min>
