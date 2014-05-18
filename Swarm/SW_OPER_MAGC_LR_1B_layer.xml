@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cfg:browseLayers xmlns:cfg="http://ngeo.eo.esa.int/schema/configurationElements">
-  <cfg:browseLayer browseLayerId="SWARM-L1b">
-    <cfg:browseType>SWARM-L1b</cfg:browseType>
-    <cfg:title>SWARM-L1b</cfg:title>
+  <cfg:browseLayer browseLayerId="SW_OPER_MAGC_LR_1B">
+    <cfg:browseType>SW_OPER_MAGC_LR_1B</cfg:browseType>
+    <cfg:title>SW_OPER_MAGC_LR_1B</cfg:title>
     <cfg:description></cfg:description>
     <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
     <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
