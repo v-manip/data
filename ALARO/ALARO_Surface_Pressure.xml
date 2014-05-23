@@ -10,8 +10,8 @@
     <cfg:relatedDatasetIds/>
     <cfg:containsVerticalCurtains>false</cfg:containsVerticalCurtains>
     <cfg:contains_volumes>false</cfg:contains_volumes>
-    <cfg:highestMapLevel>0</cfg:highestMapLevel>
-    <cfg:lowestMapLevel>2</cfg:lowestMapLevel>
+    <cfg:highestMapLevel>2</cfg:highestMapLevel>
+    <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
     <cfg:rgbBands>1,1,1</cfg:rgbBands>
     <cfg:radiometricInterval>
         <cfg:min>500</cfg:min>
