@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfg:browseLayers xmlns:cfg="http://ngeo.eo.esa.int/schema/configurationElements">
+  <cfg:browseLayer browseLayerId="AROME_Temperature_surface">
+    <cfg:browseType>AROME_Temperature_surface</cfg:browseType>
+    <cfg:title>AROME Temperature surface</cfg:title>
+    <cfg:description></cfg:description>
+    <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
+    <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
+    <cfg:hostingBrowseServerName/>
+    <cfg:relatedDatasetIds/>
+    <cfg:highestMapLevel>0</cfg:highestMapLevel>
+    <cfg:lowestMapLevel>2</cfg:lowestMapLevel>
+    <cfg:rgbBands>1,1,1</cfg:rgbBands>
+    <cfg:radiometricInterval>
+        <cfg:min>100</cfg:min>
+        <cfg:max>500</cfg:max>
+    </cfg:radiometricInterval>
+    <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
+    <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
+  </cfg:browseLayer>
+</cfg:browseLayers>
