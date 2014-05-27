@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cfg:browseLayers xmlns:cfg="http://ngeo.eo.esa.int/schema/configurationElements">
-  <cfg:browseLayer browseLayerId="AROME_Surface_Pressure_201305150000">
-    <cfg:browseType>AROME_Surface_Pressure_201305150000</cfg:browseType>
-    <cfg:title>AROME Surface Pressure 20130515 0000</cfg:title>
+  <cfg:browseLayer browseLayerId="ALARO_Surface_Pressure_201305150000">
+    <cfg:browseType>ALARO_Surface_Pressure_201305150000</cfg:browseType>
+    <cfg:title>ALARO Surface Pressure 20130515 0000</cfg:title>
     <cfg:description></cfg:description>
     <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
     <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
@@ -20,9 +20,9 @@
     <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
     <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
   </cfg:browseLayer>
-  <cfg:browseLayer browseLayerId="AROME_Surface_Pressure_201305151200">
-    <cfg:browseType>AROME_Surface_Pressure_201305151200</cfg:browseType>
-    <cfg:title>AROME Surface Pressure 20130575 1200</cfg:title>
+  <cfg:browseLayer browseLayerId="ALARO_Surface_Pressure_201305151200">
+    <cfg:browseType>ALARO_Surface_Pressure_201305151200</cfg:browseType>
+    <cfg:title>ALARO Surface Pressure 20130575 1200</cfg:title>
     <cfg:description></cfg:description>
     <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
     <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
@@ -40,9 +40,9 @@
     <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
     <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
   </cfg:browseLayer>
-  <cfg:browseLayer browseLayerId="AROME_Surface_Pressure_201305160000">
-    <cfg:browseType>AROME_Surface_Pressure_201305160000</cfg:browseType>
-    <cfg:title>AROME Surface Pressure 20130516 0000</cfg:title>
+  <cfg:browseLayer browseLayerId="ALARO_Surface_Pressure_201305160000">
+    <cfg:browseType>ALARO_Surface_Pressure_201305160000</cfg:browseType>
+    <cfg:title>ALARO Surface Pressure 20130516 0000</cfg:title>
     <cfg:description></cfg:description>
     <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
     <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
@@ -60,9 +60,9 @@
     <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
     <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
   </cfg:browseLayer>
-  <cfg:browseLayer browseLayerId="AROME_Surface_Pressure_201305161200">
-    <cfg:browseType>AROME_Surface_Pressure_201305161200</cfg:browseType>
-    <cfg:title>AROME Surface Pressure 20130516 1200</cfg:title>
+  <cfg:browseLayer browseLayerId="ALARO_Surface_Pressure_201305161200">
+    <cfg:browseType>ALARO_Surface_Pressure_201305161200</cfg:browseType>
+    <cfg:title>ALARO Surface Pressure 20130516 1200</cfg:title>
     <cfg:description></cfg:description>
     <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
     <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
@@ -80,9 +80,9 @@
     <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
     <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
   </cfg:browseLayer>
-  <cfg:browseLayer browseLayerId="AROME_Surface_Pressure_201305170000">
-    <cfg:browseType>AROME_Surface_Pressure_201305170000</cfg:browseType>
-    <cfg:title>AROME Surface Pressure 20130517 0000</cfg:title>
+  <cfg:browseLayer browseLayerId="ALARO_Surface_Pressure_201305170000">
+    <cfg:browseType>ALARO_Surface_Pressure_201305170000</cfg:browseType>
+    <cfg:title>ALARO Surface Pressure 20130517 0000</cfg:title>
     <cfg:description></cfg:description>
     <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
     <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
@@ -100,9 +100,9 @@
     <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
     <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
   </cfg:browseLayer>
-  <cfg:browseLayer browseLayerId="AROME_Surface_Pressure_201305171200">
-    <cfg:browseType>AROME_Surface_Pressure_201305171200</cfg:browseType>
-    <cfg:title>AROME Surface Pressure 20130517 1200</cfg:title>
+  <cfg:browseLayer browseLayerId="ALARO_Surface_Pressure_201305171200">
+    <cfg:browseType>ALARO_Surface_Pressure_201305171200</cfg:browseType>
+    <cfg:title>ALARO Surface Pressure 20130517 1200</cfg:title>
     <cfg:description></cfg:description>
     <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
     <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
@@ -120,9 +120,9 @@
     <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
     <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
   </cfg:browseLayer>
-  <cfg:browseLayer browseLayerId="AROME_Surface_Pressure_201305180000">
-    <cfg:browseType>AROME_Surface_Pressure_201305180000</cfg:browseType>
-    <cfg:title>AROME Surface Pressure 20130518 0000</cfg:title>
+  <cfg:browseLayer browseLayerId="ALARO_Surface_Pressure_201305180000">
+    <cfg:browseType>ALARO_Surface_Pressure_201305180000</cfg:browseType>
+    <cfg:title>ALARO Surface Pressure 20130518 0000</cfg:title>
     <cfg:description></cfg:description>
     <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
     <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
@@ -140,9 +140,9 @@
     <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
     <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
   </cfg:browseLayer>
-  <cfg:browseLayer browseLayerId="AROME_Surface_Pressure_201305181200">
-    <cfg:browseType>AROME_Surface_Pressure_201305181200</cfg:browseType>
-    <cfg:title>AROME Surface Pressure 20130518 1200</cfg:title>
+  <cfg:browseLayer browseLayerId="ALARO_Surface_Pressure_201305181200">
+    <cfg:browseType>ALARO_Surface_Pressure_201305181200</cfg:browseType>
+    <cfg:title>ALARO Surface Pressure 20130518 1200</cfg:title>
     <cfg:description></cfg:description>
     <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
     <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>

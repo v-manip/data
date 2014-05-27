@@ -24,5 +24,5 @@ find /home/sistema/DATA/useCase1-2/model/ALARO -name "*Temperature_isoba*.xml" -
 find /home/sistema/DATA/useCase1-2/model/ALARO -name "*Temperature_surface*.tif" -exec cp {} /var/www/ngeo/store/ \;
 find /home/sistema/DATA/useCase1-2/model/ALARO -name "*Temperature_surface*.xml" -exec python manage.py ngeo_ingest {} -v3 \;
 
-find /home/sistema/DATA/useCase1-2/model/ALARO -name "*Surface_Pressure*.tif" -exec cp {} /var/www/ngeo/store/ \;
-find /home/sistema/DATA/useCase1-2/model/ALARO -name "*Surface_Pressure*.xml" -exec python manage.py ngeo_ingest {} -v3 \;
+find /home/sistema/DATA/useCase1-2/model/ALARO -name "*Surface_pressure*.tif" -exec cp {} /var/www/ngeo/store/ \;
+find /home/sistema/DATA/useCase1-2/model/ALARO -name "*Surface_pressure*.xml" -exec python manage.py ngeo_ingest {} -v3 \;
