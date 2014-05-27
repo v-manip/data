@@ -1,8 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cfg:browseLayers xmlns:cfg="http://ngeo.eo.esa.int/schema/configurationElements">
-  <cfg:browseLayer browseLayerId="ALARO_Temperature_isobaric">
-    <cfg:browseType>ALARO_Temperature_isobaric</cfg:browseType>
-    <cfg:title>ALARO Temperature Isobaric</cfg:title>
+  <cfg:browseLayer browseLayerId="ALARO_Temperature_isobaric_201305150000">
+    <cfg:browseType>ALARO_Temperature_isobaric_201305150000</cfg:browseType>
+    <cfg:title>ALARO Temperature Isobaric 20130515 0000</cfg:title>
+    <cfg:description></cfg:description>
+    <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
+    <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
+    <cfg:hostingBrowseServerName/>
+    <cfg:relatedDatasetIds/>
+    <cfg:containsVerticalCurtains>false</cfg:containsVerticalCurtains>
+    <cfg:contains_volumes>true</cfg:contains_volumes>
+    <cfg:highestMapLevel>0</cfg:highestMapLevel>
+    <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
+    <cfg:radiometricInterval>
+        <cfg:min>-40</cfg:min>
+        <cfg:max>100</cfg:max>
+    </cfg:radiometricInterval>
+    <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
+    <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
+  </cfg:browseLayer>
+  <cfg:browseLayer browseLayerId="ALARO_Temperature_isobaric_201305151200">
+    <cfg:browseType>ALARO_Temperature_isobaric_201305151200</cfg:browseType>
+    <cfg:title>ALARO Temperature Isobaric 20130575 1200</cfg:title>
+    <cfg:description></cfg:description>
+    <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
+    <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
+    <cfg:hostingBrowseServerName/>
+    <cfg:relatedDatasetIds/>
+    <cfg:containsVerticalCurtains>false</cfg:containsVerticalCurtains>
+    <cfg:contains_volumes>true</cfg:contains_volumes>
+    <cfg:highestMapLevel>0</cfg:highestMapLevel>
+    <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
+    <cfg:radiometricInterval>
+        <cfg:min>-40</cfg:min>
+        <cfg:max>100</cfg:max>
+    </cfg:radiometricInterval>
+    <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
+    <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
+  </cfg:browseLayer>
+  <cfg:browseLayer browseLayerId="ALARO_Temperature_isobaric_201305160000">
+    <cfg:browseType>ALARO_Temperature_isobaric_201305160000</cfg:browseType>
+    <cfg:title>ALARO Temperature Isobaric 20130516 0000</cfg:title>
+    <cfg:description></cfg:description>
+    <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
+    <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
+    <cfg:hostingBrowseServerName/>
+    <cfg:relatedDatasetIds/>
+    <cfg:containsVerticalCurtains>false</cfg:containsVerticalCurtains>
+    <cfg:contains_volumes>true</cfg:contains_volumes>
+    <cfg:highestMapLevel>0</cfg:highestMapLevel>
+    <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
+    <cfg:radiometricInterval>
+        <cfg:min>-40</cfg:min>
+        <cfg:max>100</cfg:max>
+    </cfg:radiometricInterval>
+    <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
+    <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
+  </cfg:browseLayer>
+  <cfg:browseLayer browseLayerId="ALARO_Temperature_isobaric_201305161200">
+    <cfg:browseType>ALARO_Temperature_isobaric_201305161200</cfg:browseType>
+    <cfg:title>ALARO Temperature Isobaric 20130516 1200</cfg:title>
+    <cfg:description></cfg:description>
+    <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
+    <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
+    <cfg:hostingBrowseServerName/>
+    <cfg:relatedDatasetIds/>
+    <cfg:containsVerticalCurtains>false</cfg:containsVerticalCurtains>
+    <cfg:contains_volumes>true</cfg:contains_volumes>
+    <cfg:highestMapLevel>0</cfg:highestMapLevel>
+    <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
+    <cfg:radiometricInterval>
+        <cfg:min>-40</cfg:min>
+        <cfg:max>100</cfg:max>
+    </cfg:radiometricInterval>
+    <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
+    <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
+  </cfg:browseLayer>
+  <cfg:browseLayer browseLayerId="ALARO_Temperature_isobaric_201305170000">
+    <cfg:browseType>ALARO_Temperature_isobaric_201305170000</cfg:browseType>
+    <cfg:title>ALARO Temperature Isobaric 20130517 000</cfg:title>
+    <cfg:description></cfg:description>
+    <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
+    <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
+    <cfg:hostingBrowseServerName/>
+    <cfg:relatedDatasetIds/>
+    <cfg:containsVerticalCurtains>false</cfg:containsVerticalCurtains>
+    <cfg:contains_volumes>true</cfg:contains_volumes>
+    <cfg:highestMapLevel>0</cfg:highestMapLevel>
+    <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
+    <cfg:radiometricInterval>
+        <cfg:min>-40</cfg:min>
+        <cfg:max>100</cfg:max>
+    </cfg:radiometricInterval>
+    <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
+    <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
+  </cfg:browseLayer>
+  <cfg:browseLayer browseLayerId="ALARO_Temperature_isobaric_201305171200">
+    <cfg:browseType>ALARO_Temperature_isobaric_201305171200</cfg:browseType>
+    <cfg:title>ALARO Temperature Isobaric 20130517 1200</cfg:title>
+    <cfg:description></cfg:description>
+    <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
+    <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
+    <cfg:hostingBrowseServerName/>
+    <cfg:relatedDatasetIds/>
+    <cfg:containsVerticalCurtains>false</cfg:containsVerticalCurtains>
+    <cfg:contains_volumes>true</cfg:contains_volumes>
+    <cfg:highestMapLevel>0</cfg:highestMapLevel>
+    <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
+    <cfg:radiometricInterval>
+        <cfg:min>-40</cfg:min>
+        <cfg:max>100</cfg:max>
+    </cfg:radiometricInterval>
+    <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
+    <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
+  </cfg:browseLayer>
+  <cfg:browseLayer browseLayerId="ALARO_Temperature_isobaric_201305180000">
+    <cfg:browseType>ALARO_Temperature_isobaric_201305180000</cfg:browseType>
+    <cfg:title>ALARO Temperature Isobaric 20130518 0000</cfg:title>
+    <cfg:description></cfg:description>
+    <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
+    <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
+    <cfg:hostingBrowseServerName/>
+    <cfg:relatedDatasetIds/>
+    <cfg:containsVerticalCurtains>false</cfg:containsVerticalCurtains>
+    <cfg:contains_volumes>true</cfg:contains_volumes>
+    <cfg:highestMapLevel>0</cfg:highestMapLevel>
+    <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
+    <cfg:radiometricInterval>
+        <cfg:min>-40</cfg:min>
+        <cfg:max>100</cfg:max>
+    </cfg:radiometricInterval>
+    <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
+    <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
+  </cfg:browseLayer>
+  <cfg:browseLayer browseLayerId="ALARO_Temperature_isobaric_201305181200">
+    <cfg:browseType>ALARO_Temperature_isobaric_201305181200</cfg:browseType>
+    <cfg:title>ALARO Temperature Isobaric 20130518 1200</cfg:title>
     <cfg:description></cfg:description>
     <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
     <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>

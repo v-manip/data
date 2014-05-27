@@ -1,8 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cfg:browseLayers xmlns:cfg="http://ngeo.eo.esa.int/schema/configurationElements">
-  <cfg:browseLayer browseLayerId="AROME_Temperature_surface">
-    <cfg:browseType>AROME_Temperature_surface</cfg:browseType>
-    <cfg:title>AROME Temperature surface</cfg:title>
+  <cfg:browseLayer browseLayerId="AROME_Temperature_surface_201305150000">
+    <cfg:browseType>AROME_Temperature_surface_201305150000</cfg:browseType>
+    <cfg:title>AROME Temperature surface 20130515 0000</cfg:title>
+    <cfg:description></cfg:description>
+    <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
+    <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
+    <cfg:hostingBrowseServerName/>
+    <cfg:relatedDatasetIds/>
+    <cfg:containsVerticalCurtains>false</cfg:containsVerticalCurtains>
+    <cfg:contains_volumes>false</cfg:contains_volumes>
+    <cfg:highestMapLevel>2</cfg:highestMapLevel>
+    <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
+    <cfg:rgbBands>1,1,1</cfg:rgbBands>
+    <cfg:radiometricInterval>
+        <cfg:min>100</cfg:min>
+        <cfg:max>500</cfg:max>
+    </cfg:radiometricInterval>
+    <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
+    <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
+  </cfg:browseLayer>
+  <cfg:browseLayer browseLayerId="AROME_Temperature_surface_201305151200">
+    <cfg:browseType>AROME_Temperature_surface_201305151200</cfg:browseType>
+    <cfg:title>AROME Temperature surface 20130575 1200</cfg:title>
+    <cfg:description></cfg:description>
+    <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
+    <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
+    <cfg:hostingBrowseServerName/>
+    <cfg:relatedDatasetIds/>
+    <cfg:containsVerticalCurtains>false</cfg:containsVerticalCurtains>
+    <cfg:contains_volumes>false</cfg:contains_volumes>
+    <cfg:highestMapLevel>2</cfg:highestMapLevel>
+    <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
+    <cfg:rgbBands>1,1,1</cfg:rgbBands>
+    <cfg:radiometricInterval>
+        <cfg:min>100</cfg:min>
+        <cfg:max>500</cfg:max>
+    </cfg:radiometricInterval>
+    <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
+    <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
+  </cfg:browseLayer>
+  <cfg:browseLayer browseLayerId="AROME_Temperature_surface_201305160000">
+    <cfg:browseType>AROME_Temperature_surface_201305160000</cfg:browseType>
+    <cfg:title>AROME Temperature surface 20130516 0000</cfg:title>
+    <cfg:description></cfg:description>
+    <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
+    <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
+    <cfg:hostingBrowseServerName/>
+    <cfg:relatedDatasetIds/>
+    <cfg:containsVerticalCurtains>false</cfg:containsVerticalCurtains>
+    <cfg:contains_volumes>false</cfg:contains_volumes>
+    <cfg:highestMapLevel>2</cfg:highestMapLevel>
+    <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
+    <cfg:rgbBands>1,1,1</cfg:rgbBands>
+    <cfg:radiometricInterval>
+        <cfg:min>100</cfg:min>
+        <cfg:max>500</cfg:max>
+    </cfg:radiometricInterval>
+    <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
+    <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
+  </cfg:browseLayer>
+  <cfg:browseLayer browseLayerId="AROME_Temperature_surface_201305161200">
+    <cfg:browseType>AROME_Temperature_surface_201305161200</cfg:browseType>
+    <cfg:title>AROME Temperature surface 20130516 1200</cfg:title>
+    <cfg:description></cfg:description>
+    <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
+    <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
+    <cfg:hostingBrowseServerName/>
+    <cfg:relatedDatasetIds/>
+    <cfg:containsVerticalCurtains>false</cfg:containsVerticalCurtains>
+    <cfg:contains_volumes>false</cfg:contains_volumes>
+    <cfg:highestMapLevel>2</cfg:highestMapLevel>
+    <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
+    <cfg:rgbBands>1,1,1</cfg:rgbBands>
+    <cfg:radiometricInterval>
+        <cfg:min>100</cfg:min>
+        <cfg:max>500</cfg:max>
+    </cfg:radiometricInterval>
+    <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
+    <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
+  </cfg:browseLayer>
+  <cfg:browseLayer browseLayerId="AROME_Temperature_surface_201305170000">
+    <cfg:browseType>AROME_Temperature_surface_201305170000</cfg:browseType>
+    <cfg:title>AROME Temperature surface 20130517 0000</cfg:title>
+    <cfg:description></cfg:description>
+    <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
+    <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
+    <cfg:hostingBrowseServerName/>
+    <cfg:relatedDatasetIds/>
+    <cfg:containsVerticalCurtains>false</cfg:containsVerticalCurtains>
+    <cfg:contains_volumes>false</cfg:contains_volumes>
+    <cfg:highestMapLevel>2</cfg:highestMapLevel>
+    <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
+    <cfg:rgbBands>1,1,1</cfg:rgbBands>
+    <cfg:radiometricInterval>
+        <cfg:min>100</cfg:min>
+        <cfg:max>500</cfg:max>
+    </cfg:radiometricInterval>
+    <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
+    <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
+  </cfg:browseLayer>
+  <cfg:browseLayer browseLayerId="AROME_Temperature_surface_201305171200">
+    <cfg:browseType>AROME_Temperature_surface_201305171200</cfg:browseType>
+    <cfg:title>AROME Temperature surface 20130517 1200</cfg:title>
+    <cfg:description></cfg:description>
+    <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
+    <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
+    <cfg:hostingBrowseServerName/>
+    <cfg:relatedDatasetIds/>
+    <cfg:containsVerticalCurtains>false</cfg:containsVerticalCurtains>
+    <cfg:contains_volumes>false</cfg:contains_volumes>
+    <cfg:highestMapLevel>2</cfg:highestMapLevel>
+    <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
+    <cfg:rgbBands>1,1,1</cfg:rgbBands>
+    <cfg:radiometricInterval>
+        <cfg:min>100</cfg:min>
+        <cfg:max>500</cfg:max>
+    </cfg:radiometricInterval>
+    <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
+    <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
+  </cfg:browseLayer>
+  <cfg:browseLayer browseLayerId="AROME_Temperature_surface_201305180000">
+    <cfg:browseType>AROME_Temperature_surface_201305180000</cfg:browseType>
+    <cfg:title>AROME Temperature surface 20130518 0000</cfg:title>
+    <cfg:description></cfg:description>
+    <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
+    <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
+    <cfg:hostingBrowseServerName/>
+    <cfg:relatedDatasetIds/>
+    <cfg:containsVerticalCurtains>false</cfg:containsVerticalCurtains>
+    <cfg:contains_volumes>false</cfg:contains_volumes>
+    <cfg:highestMapLevel>2</cfg:highestMapLevel>
+    <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
+    <cfg:rgbBands>1,1,1</cfg:rgbBands>
+    <cfg:radiometricInterval>
+        <cfg:min>100</cfg:min>
+        <cfg:max>500</cfg:max>
+    </cfg:radiometricInterval>
+    <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
+    <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
+  </cfg:browseLayer>
+  <cfg:browseLayer browseLayerId="AROME_Temperature_surface_201305181200">
+    <cfg:browseType>AROME_Temperature_surface_201305181200</cfg:browseType>
+    <cfg:title>AROME Temperature surface 20130518 1200</cfg:title>
     <cfg:description></cfg:description>
     <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
     <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
