@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cfg:browseLayers xmlns:cfg="http://ngeo.eo.esa.int/schema/configurationElements">
-  <cfg:browseLayer browseLayerId="MOD07">
-    <cfg:browseType>MOD07</cfg:browseType>
-    <cfg:title>MOD07</cfg:title>
+  <cfg:browseLayer browseLayerId="MOD07_Retrived_Temperature_Profile">
+    <cfg:browseType>MOD07_Retrived_Temperature_Profile</cfg:browseType>
+    <cfg:title>MOD07 Retrived Temperature Profile</cfg:title>
     <cfg:description></cfg:description>
     <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
     <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
@@ -10,8 +10,71 @@
     <cfg:relatedDatasetIds/>
     <cfg:containsVerticalCurtains>false</cfg:containsVerticalCurtains>
     <cfg:contains_volumes>true</cfg:contains_volumes>
-    <cfg:highestMapLevel>4</cfg:highestMapLevel>
+    <cfg:highestMapLevel>0</cfg:highestMapLevel>
     <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
+    <cfg:radiometricInterval>
+        <cfg:min>-40</cfg:min>
+        <cfg:max>100</cfg:max>
+    </cfg:radiometricInterval>
+    <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
+    <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
+  </cfg:browseLayer>
+  <cfg:browseLayer browseLayerId="MOD07_Specific_Umidity">
+    <cfg:browseType>MOD07_Specific_Umidity</cfg:browseType>
+    <cfg:title>MOD07 Specific Humidity</cfg:title>
+    <cfg:description></cfg:description>
+    <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
+    <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
+    <cfg:hostingBrowseServerName/>
+    <cfg:relatedDatasetIds/>
+    <cfg:containsVerticalCurtains>false</cfg:containsVerticalCurtains>
+    <cfg:contains_volumes>true</cfg:contains_volumes>
+    <cfg:highestMapLevel>0</cfg:highestMapLevel>
+    <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
+    <cfg:radiometricInterval>
+        <cfg:min>-40</cfg:min>
+        <cfg:max>100</cfg:max>
+    </cfg:radiometricInterval>
+    <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
+    <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
+  </cfg:browseLayer>
+  <cfg:browseLayer browseLayerId="MOD07_Surface_Pressure">
+    <cfg:browseType>MOD07_Surface_Pressure</cfg:browseType>
+    <cfg:title>MOD07 Surface Pressure</cfg:title>
+    <cfg:description></cfg:description>
+    <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
+    <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
+    <cfg:hostingBrowseServerName/>
+    <cfg:relatedDatasetIds/>
+    <cfg:containsVerticalCurtains>false</cfg:containsVerticalCurtains>
+    <cfg:contains_volumes>false</cfg:contains_volumes>
+    <cfg:highestMapLevel>2</cfg:highestMapLevel>
+    <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
+    <cfg:rgbBands>1,1,1</cfg:rgbBands>
+    <cfg:radiometricInterval>
+        <cfg:min>500</cfg:min>
+        <cfg:max>1200</cfg:max>
+    </cfg:radiometricInterval>
+    <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
+    <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
+  </cfg:browseLayer>
+  <cfg:browseLayer browseLayerId="MOD07_Surface_temperature">
+    <cfg:browseType>MOD07_Surface_temperature</cfg:browseType>
+    <cfg:title>MOD07 Surface temperature</cfg:title>
+    <cfg:description></cfg:description>
+    <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
+    <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
+    <cfg:hostingBrowseServerName/>
+    <cfg:relatedDatasetIds/>
+    <cfg:containsVerticalCurtains>false</cfg:containsVerticalCurtains>
+    <cfg:contains_volumes>false</cfg:contains_volumes>
+    <cfg:highestMapLevel>2</cfg:highestMapLevel>
+    <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
+    <cfg:rgbBands>1,1,1</cfg:rgbBands>
+    <cfg:radiometricInterval>
+        <cfg:min>100</cfg:min>
+        <cfg:max>500</cfg:max>
+    </cfg:radiometricInterval>
     <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
     <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
   </cfg:browseLayer>
