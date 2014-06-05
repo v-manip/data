@@ -57,7 +57,6 @@
     <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
     <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
   </cfg:browseLayer>
-</cfg:browseLayers>
 <cfg:browseLayer browseLayerId="Radar_Juelich_UZV">
     <cfg:browseType>Radar_Juelich_UZV</cfg:browseType>
     <cfg:title>Radar Juelich UZV</cfg:title>
@@ -77,3 +76,4 @@
     <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
     <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
   </cfg:browseLayer>
+</cfg:browseLayers>
