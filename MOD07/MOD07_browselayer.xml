@@ -50,11 +50,6 @@
     <cfg:contains_volumes>false</cfg:contains_volumes>
     <cfg:highestMapLevel>2</cfg:highestMapLevel>
     <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
-    <cfg:rgbBands>1,1,1</cfg:rgbBands>
-    <cfg:radiometricInterval>
-        <cfg:min>500</cfg:min>
-        <cfg:max>1200</cfg:max>
-    </cfg:radiometricInterval>
     <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
     <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
   </cfg:browseLayer>
@@ -70,11 +65,6 @@
     <cfg:contains_volumes>false</cfg:contains_volumes>
     <cfg:highestMapLevel>2</cfg:highestMapLevel>
     <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
-    <cfg:rgbBands>1,1,1</cfg:rgbBands>
-    <cfg:radiometricInterval>
-        <cfg:min>100</cfg:min>
-        <cfg:max>500</cfg:max>
-    </cfg:radiometricInterval>
     <cfg:timeDimensionDefault>2013</cfg:timeDimensionDefault>
     <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
   </cfg:browseLayer>
