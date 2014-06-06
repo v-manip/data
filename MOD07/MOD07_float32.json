@@ -1,0 +1,21 @@
+[{
+    "bands": [
+        {
+            "definition": "Temperature/Humidity",
+            "description": "MOD07_float32",
+            "gdal_interpretation": "Undefined",
+            "identifier": "MOD07_float32",
+            "name": "MOD07_float32",
+            "nil_values": [
+                {
+                    "reason": "unknown",
+                    "value": -9999 
+                }
+            ],
+            "uom": "None"
+        }
+    ],
+    "data_type": "Float32",
+    "name": "MOD07_float32"
+}]
+
