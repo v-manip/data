@@ -18,17 +18,12 @@ ns = {
 	"wcseo": "http://www.opengis.net/wcseo/1.0"
 }
 
-browsetype = tree.xpath(
-	"rep:browseReport/rep:browseType",
-	namespaces=ns
-)
+eo = tree.xpath("/rep:browseReport/rep:browse",namespaces=ns)
 
-eo = tree.xpath("rep:browseReport/rep:browse",namespaces=ns)
-
-bt = tree.find("rep:browseType", namespaces=ns).text
-beg_time = tree.find("/rep:browse/rep:startTime", namespaces=ns).text
-end_time = tree.find("/rep:browse/rep:endTime", namespaces=ns).text
-footprint = tree.find("/rep:browse/rep:rectifiedBrowse/rep:coordList", namespaces=ns).text
+bt = tree.xpath("/rep:browseReport/rep:browseType", namespaces=ns)[0].text
+beg_time = tree.xpath("/rep:browseReport/rep:browse/rep:startTime", namespaces=ns)[0].text
+end_time = tree.xpath("/rep:browseReport/rep:browse/rep:endTime", namespaces=ns)[0].text
+footprint = tree.xpath("/rep:browseReport/rep:browse/rep:rectifiedBrowse/rep:coordList", namespaces=ns)[0].text
 coords = footprint.split(' ')
 poly = " ".join([
 	coords[0],coords[1],
