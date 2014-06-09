@@ -14,7 +14,45 @@
     <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
     <cfg:radiometricInterval>
         <cfg:min>0</cfg:min>
-        <cfg:max>100</cfg:max>
+        <cfg:max>1</cfg:max>
+    </cfg:radiometricInterval>
+    <cfg:timeDimensionDefault>2008</cfg:timeDimensionDefault>
+    <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
+  </cfg:browseLayer>
+  <cfg:browseLayer browseLayerId="NPL3Merged">
+    <cfg:browseType>NPL3Merged</cfg:browseType>
+    <cfg:title>NPL3Merged</cfg:title>
+    <cfg:description></cfg:description>
+    <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
+    <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
+    <cfg:hostingBrowseServerName/>
+    <cfg:relatedDatasetIds/>
+    <cfg:containsVerticalCurtains>false</cfg:containsVerticalCurtains>
+    <cfg:contains_volumes>true</cfg:contains_volumes>
+    <cfg:highestMapLevel>0</cfg:highestMapLevel>
+    <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
+    <cfg:radiometricInterval>
+        <cfg:min>0</cfg:min>
+        <cfg:max>1</cfg:max>
+    </cfg:radiometricInterval>
+    <cfg:timeDimensionDefault>2008</cfg:timeDimensionDefault>
+    <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
+  </cfg:browseLayer>
+  <cfg:browseLayer browseLayerId="REAN">
+    <cfg:browseType>REAN</cfg:browseType>
+    <cfg:title>REAN</cfg:title>
+    <cfg:description></cfg:description>
+    <cfg:grid>urn:ogc:def:wkss:OGC:1.0:GoogleCRS84Quad</cfg:grid>
+    <cfg:browseAccessPolicy>OPEN</cfg:browseAccessPolicy>
+    <cfg:hostingBrowseServerName/>
+    <cfg:relatedDatasetIds/>
+    <cfg:containsVerticalCurtains>false</cfg:containsVerticalCurtains>
+    <cfg:contains_volumes>true</cfg:contains_volumes>
+    <cfg:highestMapLevel>0</cfg:highestMapLevel>
+    <cfg:lowestMapLevel>0</cfg:lowestMapLevel>
+    <cfg:radiometricInterval>
+        <cfg:min>0</cfg:min>
+        <cfg:max>1</cfg:max>
     </cfg:radiometricInterval>
     <cfg:timeDimensionDefault>2008</cfg:timeDimensionDefault>
     <cfg:tileQueryLimit>100</cfg:tileQueryLimit>
