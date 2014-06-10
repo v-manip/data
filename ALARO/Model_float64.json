@@ -1,0 +1,21 @@
+[{
+    "bands": [
+        {
+            "definition": "Temperature/Pressure",
+            "description": "Model_float64",
+            "gdal_interpretation": "Undefined",
+            "identifier": "Model_float64",
+            "name": "Model_float64",
+            "nil_values": [
+                {
+                    "reason": "unknown",
+                    "value": -9999 
+                }
+            ],
+            "uom": "None"
+        }
+    ],
+    "data_type": "Float64",
+    "name": "Model_float64"
+}]
+
