@@ -32,8 +32,13 @@ extent = [
 
 extent = ",".join(extent)
 
-command = ["python", instance_path+"manage.py", "eoxs_dataset_register", "-r", rangetype, "-d", getpath(filename), "-m", getpath(meta), "--series", series, "-e", extent, "-p", projection]
+command = ["python", instance_path+"manage.py", "eoxs_dataset_register", "-r", rangetype, "-d", filename, "-m", meta, "--series", series, "-e", extent, "-p", projection]
 
 print command
 
 call(command)
+
+
+
+#find /data/MOD07/ -name "*Surface_Pressure*.xml" -exec python regiterdata.py %f MOD07_Surface_Pressure_data \;
+#find /data/MOD07/ -name "*Surface_temperature*.xml" -exec python regiterdata.py {} MOD07_Surface_temperature_data \;
