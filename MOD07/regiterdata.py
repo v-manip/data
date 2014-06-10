@@ -33,8 +33,10 @@ extent = [
 
 extent = ",".join(extent)
 
-print "python " + instance_path + "manage.py eoxs_dataset_register"
-print "-r %s -d %s -m %s --series %s -e '%s' -p %s"%(rangetype, getpath(filename), getpath(meta), series, extent, projection)
+command = "python " + instance_path + "manage.py eoxs_dataset_register"
+parameter = "-r %s -d %s -m %s --series %s -e '%s' -p %s"%(rangetype, getpath(filename), getpath(meta), series, extent, projection)
+
+print command, parameter
 
 
-#call(["ls", "-l"])
+call([command, parameter])
