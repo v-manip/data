@@ -30,13 +30,10 @@ extent = [
 ]
 
 
-
 extent = ",".join(extent)
 
-command = "python " + instance_path + "manage.py eoxs_dataset_register"
-parameter = "-r %s -d %s -m %s --series %s -e '%s' -p %s"%(rangetype, getpath(filename), getpath(meta), series, extent, projection)
+command = ["python", instance_path+"manage.py", "eoxs_dataset_register", "-r", rangetype, "-d", getpath(filename), "-m", getpath(meta), "--series", series, "-e", extent, "-p", projection]
 
-print command, parameter
+print command
 
-
-call([command, parameter])
+call(command)
