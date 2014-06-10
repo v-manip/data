@@ -1,0 +1,103 @@
+find /home/sistema/DATA/useCase1-2/ -type f -name "br_*Temperature_isoba*.xml" -exec sed -i 's/browseType>ALARO/browseType>ALARO_Temperature_isobaric' {} \;
+
+find /home/sistema/DATA/useCase1-2/model/AROME/20130517/00/ -type f -name "br_AROME_Temperature_isobaricInhPa_201305170000_0011.xml" -exec sed -i 's/browseType>AROME</browseType>AROME_Temperature_isobaric</g' {} \;
+
+
+
+find /home/sistema/DATA/useCase1-2/model/AROME -type f -name "*Temperature_isoba*.xml" -exec sed -i 's/browseType>AROME</browseType>AROME_Temperature_isobaric</g' {} \;
+
+find /home/sistema/DATA/useCase1-2/model/ALARO -type f -name "*Temperature_isoba*.xml" -exec sed -i 's/browseType>ALARO</browseType>ALARO_Temperature_isobaric</g' {} \;
+
+
+
+
+find /home/sistema/DATA/useCase1-2/model/AROME -type f -name "*Specific_hu*.xml" -exec sed -i 's/browseType>AROME</browseType>AROME_Specific_Humidity</g' {} \;
+
+find /home/sistema/DATA/useCase1-2/model/ALARO -type f -name "*Specific_hu*.xml" -exec sed -i 's/browseType>ALARO</browseType>ALARO_Specific_Humidity</g' {} \;
+
+
+
+
+find /home/sistema/DATA/useCase1-2/model/AROME -type f -name "*Temperature_surface*.xml" -exec sed -i 's/browseType>AROME</browseType>AROME_Temperature_Surface</g' {} \;
+
+find /home/sistema/DATA/useCase1-2/model/ALARO -type f -name "*Temperature_surface*.xml" -exec sed -i 's/browseType>ALARO</browseType>ALARO_Temperature_Surface</g' {} \;
+
+
+
+
+find /home/sistema/DATA/useCase1-2/model/AROME -type f -name "*Surface_pressure*.xml" -exec sed -i 's/browseType>AROME</browseType>AROME_Surface_Pressure</g' {} \;
+
+find /home/sistema/DATA/useCase1-2/model/ALARO -type f -name "*Surface_pressure*.xml" -exec sed -i 's/browseType>ALARO</browseType>ALARO_Surface_Pressure</g' {} \;
+
+
+
+
+find /home/sistema/DATA/useCase1-2/model/AROME/20130515/00/ -type f -name "*.xml" -exec sed -i 's/<\/rep:browseType>/_201305150000<\/rep:browseType>/g' {} \;
+
+
+
+
+
+
+find /home/sistema/DATA/useCase1-2/model/AROME -type f -name "*Temperature_iso*.xml" -exec sed -i 's/browseType>AROME_Temperature_isobaric<</browseType>AROME_Temperature_isobaric</g' {} \;
+
+
+
+
+
+
+rsync -avm --include='*.jar' -f 'hide,! */' . /destination_dir
+
+
+
+find /home/sistema/DATA/useCase1-2/model_xml_backup/AROME -type f -name "*Temperature_isoba*.xml" -exec sed -i 's/browseType>AROME_Temperature_isobaric/browseType>AROME_Temperature_isobaric_/g' {} \;
+
+
+find /home/sistema/DATA/useCase1-2/model/AROME -type f -name "*Specific_hu*.xml" -exec sed -i 's/browseType>AROME_Specific_Humidity_</browseType>AROME_Specific_Humidity_/g' {} \;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+find /home/sistema/DATA/useCase1-2/model/ALARO/20130515/00/ -type f -name "*.xml" -exec sed -i 's/<\/rep:browseType>/_201305150000<\/rep:browseType>/g' {} \;
+
+
+
+
+
+
+
+
+
