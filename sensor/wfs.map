@@ -1,0 +1,67 @@
+  MAP
+  NAME "sensor_wfs"
+  STATUS ON
+  SIZE 600 300
+  #SYMBOLSET "../etc/symbols.txt"
+  EXTENT -180 -90 180 90
+  UNITS DD
+  #SHAPEPATH "../data"
+  IMAGECOLOR 255 255 255
+  #FONTSET "../etc/fonts.txt"
+
+
+  #
+  # Start of web interface definition
+  #
+  WEB
+    IMAGEPATH "/tmp/"
+    IMAGEURL "/ms_tmp/"
+    METADATA
+      "wfs_title"          "WFS Demo Server for MapServer" ## REQUIRED
+      "wfs_onlineresource" "http://demo.mapserver.org/cgi-bin/wfs?" ## Recommended
+      "wfs_srs"            "EPSG:4326 EPSG:4269 EPSG:3978 EPSG:3857" ## Recommended
+      "wfs_abstract"       "This text describes my WFS service." ## Recommended
+      "wfs_enable_request" "*"  # necessary
+      "wms_enable_request" "*"  # necessary
+    END
+  END
+
+  PROJECTION
+    "init=epsg:4326"
+    #"EPSG:4326"
+  END
+
+  #
+  # Start of layer definitions
+  #
+
+  ##################
+  # Sensor data
+  ##################
+  LAYER
+    NAME "sensors"
+    METADATA
+      "wfs_title"         "Sensor data sets" ##REQUIRED
+      "wfs_srs"           "EPSG:4326" ## REQUIRED
+      "gml_include_items" "all" ## Optional (serves all attributes for layer)
+      "gml_featureid"     "ID" ## REQUIRED
+      "wfs_enable_request" "*"
+    END
+    TYPE POINT
+    STATUS ON
+    DATA '/media/data/vector/riversheds/WFD_RBD_f1v4/WFD_RBD_f1v4_4326_bbox.shp'
+    PROJECTION
+      "init=epsg:4326"
+      #"EPSG:4326"
+    END
+    CLASS
+      NAME 'Sensor style'
+      STYLE
+        COLOR 111 111 177 
+        OUTLINECOLOR 15 18 17
+        OPACITY 65
+      END
+    END
+  END #layer
+
+END #mapfile
